@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shower Presentation Engine</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
+</head>
+<body class="shower list">
+
+	<header class="caption">
+		<h1>Shower Presentation Engine</h1>
+		<p>Yours Truly, Famous Inc.</p>
+		<style>
+			section.slide {
+				text-align: center;
+			}
+
+			section.slide_white {
+				background-color: #FFFFFF;
+			}
+
+			section.slide_black {
+				background-color: #000000;
+			}
+
+			section.slide p {
+				font-family: Georgia;
+				font-style: normal;
+				font-size: 40px;
+			}
+
+			section.slide_black p,section.slide_black li,section.slide_black h2 {
+				color:#FFFFFF;
+			}
+
+			section.slide_white p {
+				color: #000000;
+			}
+		</style>
+	</header>
+
+	<section class="slide slide_black" id="cover">
+		<h2>Space Invasion</h2>
+		<p>space-invasion.ru</p>
+		<figure>
+			<img class="cover" src="pictures/бэк_хор.jpg" >
+		</figure>
+		<style>
+			#cover h2 {
+				margin:30px 0 0;
+				font-size:70px;
+				color: #ffffff;
+			}
+
+			#cover p {
+				margin:10px 0 0;
+				padding-top: 25%;
+				color: #ffffff;
+			}
+		</style>
+	</section>
+
+	<section class="slide slide_black">
+		<h2>Наша команда</h2>
+		<ul>
+			<li>Егор Кураков</li>
+			<li>Ольга Сурикова</li>
+			<li>Василий Дмитриев</li>
+			<li>Никита Боярских</li>
+		</ul>
+	</section>
+
+	<section class="slide slide_black">
+		<h2>Шёл 2154 год, люди заселили <br> светлую сторону Луны</h2>
+		<figure>
+			<img class="cover" src="pictures/green_moon.jpg">
+		</figure>
+	</section>
+
+
+
+	<section class="slide slide_white">
+		<h2>Предыстория</h2>
+		<ul>
+			<li>Шёл 2154 год, люди заселили светлую сторону Луны</li>
+			<li class="next">Началась кампания по освоению, казалось бы, изученной тёмной стороны</li>
+			<li class="next">Но оказалось, что на темной стороне другие монстры жили</li>
+			<li class="next">Всем пришлось бороться за обладание этим спутником Земли</li>
+			<li class="next">Выбирай свою сторону и сразись за Луну</li>
+		</ul>
+	</section>
+
+	<section class="slide slide_white">
+		<h2>Концепция</h2>
+		<ul>
+			<li>Real time</li>
+			<li>Time killer</li>
+			<li>Strategy</li>
+			<li>Чтобы было интересно</li>
+		</ul>
+	</section>
+
+	<section class="slide slide_white">
+		<h2>Наши сложности:</h2>
+		<ul>
+			<li>Командное взаимодействие -> Task tracker</li>
+			<li class="next">Старались сделать красиво -> это долго</li>
+			<li class="next">Real time игра -> слооожно</li>
+			<li class="next">Плавность игры -> минимализация протокола</li>
+		</ul>
+	</section>
+
+	<section class="slide slide_white">
+		<h2>Наши достижения</h2>
+		<ul>
+			<li class="next">Игра работает плавно даже при не самом стабильном интернете</li>
+			<li class="next">Она затягивает (по крайней мере нас)</li>
+			<li class="next">В игру можно добавить различные режимы или легко сменить тематику</li>
+			<li class="next">Половина нашего приложения написана на Kotlin</li>
+		</ul>
+	</section>
+
+
+	<section class="slide slide_white">
+		<h2>Спасибо</h2>
+		<ul>
+			<li>Преподателям</li>
+			<li>Нашему ментору Егору</li>
+			<li>Другим командам и всем, кто связан с Технопарком</li>
+		</ul>
+	</section>
+
+	<section class="slide slide_white">
+		<h2>Спасибо за внимание</h2>
+		<a>space-invasion.ru</a>
+	</section>
+
+	<footer class="badge">
+		<a href="https://github.com/shower/shower">Fork me on GitHub</a>
+	</footer>
+
+	<div class="progress"></div>
+
+	<script src="node_modules/shower-core/shower.min.js"></script>
+	<!-- Copyright © 2017 Yours Truly, Famous Inc. -->
+
+</body>
+</html>
